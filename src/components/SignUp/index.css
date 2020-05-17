@@ -1,0 +1,126 @@
+.body__outer {
+  margin: 0;
+  padding: 1em;
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(#2e3144f1, #0e122df1);
+
+  background-size: cover;
+}
+.body__inner {
+  background-image: linear-gradient(to bottom, #2e3144, #0e122d);
+  border-radius: 1em;
+  min-width: 800px;
+  margin: auto;
+}
+
+/* .login__container {
+  margin: auto;
+  background: linear-gradient(#2e3144f1, #0e122df1),
+    url("https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=636&q=80");
+  background-size: cover;
+  width: 400px;
+  max-width: 500px;
+  border-radius: 0.25em;
+  padding: 2em;
+} */
+
+.login__container__left {
+  border-radius: 1em 0 0 1em;
+  padding: 1em;
+  background: white;
+  text-align: center;
+  min-height: calc((500px) - (6em));
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .login__container__left {
+    border-radius: 1em 1em 0 0 !important;
+  }
+  .login__container__right {
+    border-radius: 0 0 1em 1em !important;
+  }
+  .body__inner {
+    min-width: 80vw !important;
+  }
+}
+
+.login__container__right {
+  background: linear-gradient(#2e3144f1, #0e122df1),
+    url("https://images.unsplash.com/photo-1589596619062-068730a17443?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80");
+  background-size: cover !important;
+  border-radius: 0 1em 1em 0;
+  padding: 1em;
+  display: flex;
+  color: white;
+}
+
+.info-c {
+  margin: auto;
+  text-align: center;
+}
+
+.info_c__content {
+  color: white;
+  font-size: 1.25em !important;
+  font-weight: 200;
+}
+.info_c__sub-content {
+  color: white;
+  font-weight: 200;
+}
+.shadow {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(100, 75, 75, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12) !important;
+}
+
+.auth-btn-container {
+}
+
+.btn {
+  color: transparent;
+  margin: auto;
+  width: 100% !important;
+  margin-bottom: 0.5em !important;
+  border: 2px solid #606370 !important;
+  color: #b4b4b4 !important;
+  border-radius: 2em !important;
+  background: #ffffff11 !important;
+}
+
+/* MESSAGE */
+.message {
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn--signup {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff66;
+  text-decoration: underline;
+}
+
+.login__msg__container {
+  margin: auto;
+  max-width: 250px !important;
+}
+
+.login__msg {
+  font-size: 1.25em;
+  font-weight: 200;
+  color: #333;
+}
+
+.btn--login {
+  background-image: linear-gradient(to right, #2e3144, #0e122d) !important;
+  border: none !important;
+}
+
+.signup_btn {
+  font-weight: bold;
+  font-size: 0.8em;
+}
