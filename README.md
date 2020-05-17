@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a PWA boiler plate built with [Create React App](https://github.com/facebook/create-react-app) and [firebase](https://firebase.google.com/)
 
 ## Available Scripts
 
